@@ -1,0 +1,124 @@
+.logo-links{
+    color: white;
+}
+.subscribe{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.container-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 150px;
+    background-color: #252525;
+    padding-top: 43px;
+    padding-bottom: 44px;
+}
+
+.container-first {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+.container-first-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.container-first :link {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.container-second {
+    padding-right: 50px;
+    text-align: center;
+}
+.container-third {
+    padding-right: 50px;
+    text-align: center;
+}
+.container-four{
+    padding-right: 50px;
+    text-align: center;
+}
+
+
+.links{
+    color: gray;
+}
+
+.second-title {
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+.third-title {
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.four-title {
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.second-title :link {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.second-title ul,
+li {
+    color: gray;
+}
+.input{
+    /* background-color: black; */
+    border: none;
+    outline: none;
+    
+}
+
+.number-phone{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+@media (max-width: 600px) {
+    .container-items {
+     
+      padding: 0;
+    }
+    .container-first-title {
+padding: 0 100px;    }    
+}
+
+@media (max-width: 970px) {
+    .container-items {
+        display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .container-first-title div .input{
+        width: 100%;
+    }    
+}

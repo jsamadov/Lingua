@@ -1,0 +1,27 @@
+.mainContainer {
+    padding: 110px 190px;
+    background: #f8f8f8;
+}
+
+.slick-slide img{
+    width: 30%;
+    background: #f8f8f8;
+}
+
+.slick-prev button {
+    color: black;
+    background-color: black;
+}
+
+@media (max-width:600px) {
+    .mainContainer {
+        padding: 70px 50px;
+    }
+}
+
+
+@media (max-width:970px) {
+    .mainContainer {
+        padding: 70px 60px;
+  }
+  }

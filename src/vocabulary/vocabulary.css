@@ -1,0 +1,116 @@
+.start-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    background-color: #F8F8F8;
+    padding: 0 90px 40px 105px;
+}
+
+.item-main {
+    background-color: white;
+}
+
+.item-main-first img {
+    width: 100%;
+}
+
+
+.item-first {
+    width: 27%;
+}
+.item-p ul,li{
+    display: flex;
+    gap: 21px;
+}
+
+.item-main-second {
+    padding: 10px 23px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.item-main-second h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 13px 0;
+}
+
+.item-main-second p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.item-main-third {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 23px;
+    color: grey;
+}
+
+.item-main-third button {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 25px;
+    background-color: #2E21DF;
+    border: none;
+    border-radius: 9%;
+    padding: 0px 15px;
+}
+.item-main-third button:hover{
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.item-main-third div {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.yellow-button button{
+    background-color: #F9CF0E;
+}
+.loadButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadButton button{
+    border: 1px solid #777;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    line-height: 43px;
+    color: rgba(0,0,0,0.3);
+}
+
+@media (max-width:600px) {
+   .item-first{
+    width: 100%;
+   }
+   .start-item{
+    padding: 20px 30px;
+   }
+}
+
+@media (max-width:970px) {
+    .item-first{
+        width: 100%;
+       }
+       .start-item{
+        padding: 20px 30px;
+        gap: 50px;
+       }
+}

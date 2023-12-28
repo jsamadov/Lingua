@@ -1,0 +1,31 @@
+.countView ul,ol{
+    display: flex;
+    padding: 50px 0px;
+    font-size: 30px;
+    gap: 31px;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .countView ul,ol{
+        display: flex;
+        padding: 50px 0px;
+        font-size: 30px;
+        gap: 31px;
+        color: black;
+    }
+    }
+    .second-title ul,li{
+        color: black;
+    }
+    
+    @media (max-width: 970px) {
+        .countView ul,ol{
+            display: flex;
+            padding: 50px 0px;
+            font-size: 30px;
+            gap: 31px;
+            color: black;
+        }
+      
+    }
